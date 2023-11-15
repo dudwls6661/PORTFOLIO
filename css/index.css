@@ -1,0 +1,1019 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.cafe24 .reveal .controls{
+    color: black;
+}
+.select {
+    font-family: 'Noto Sans KR', sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.select li a:hover {
+    color: #ffc927;
+}
+
+.select li {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 600;
+    list-style: none;
+    margin-top: 100px;
+}
+
+.select li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+.con {
+    margin-top: 30px;
+}
+
+.ja {
+    margin-right: 50px;
+}
+
+.ja img {
+    width: 40px;
+    height: 40px;
+    margin-top: 3px;
+}
+
+.contact img {
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+
+}
+
+.sk {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sk img {
+    width: 80px;
+    height: 80px;
+}
+
+.ht {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.ht .inn:nth-child(2) {
+    margin: 0 70px;
+}
+
+.ht .inn:nth-child(3) {
+    margin-right: 70px;
+}
+
+.de {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Mt {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.de .inn:nth-child(2) {
+    margin: 0 70px;
+}
+
+.inn {
+    font-family: 'Noto Sans KR', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 0.7em;
+    color: #f1f1f1;
+    font-weight: 500
+}
+
+.inn img {
+    margin-bottom: 20px;
+}
+
+.fg,
+.ws,
+.git {
+    width: 90px;
+    height: 30px;
+    margin-right: 10px;
+    border: 2px solid #000;
+    font-weight: 600;
+    border-radius: 10px;
+    line-height: 28px;
+}
+
+.sb {
+    width: 90px;
+    height: 30px;
+    border: 2px solid #000;
+    font-weight: 600;
+    border-radius: 10px;
+    line-height: 30px;
+}
+
+.sb a {
+    margin-left: 31px;
+}
+
+.git {
+    width: 90px;
+    height: 30px;
+    margin-right: 10px;
+    border: 2px solid #000;
+    font-weight: 600;
+    border-radius: 10px;
+    line-height: 26px;
+}
+
+
+
+.fg:hover {
+    color: #fff;
+    background-color: #000;
+    border: 2px solid #000;
+}
+
+.ws:hover {
+    color: #fff;
+    background-color: #000;
+    border: 2px solid #000;
+}
+
+.fi:hover {
+    color: #fff;
+    background-color: #000;
+    border: 2px solid #000;
+}
+
+.sb:hover {
+    color: #fff;
+    background-color: #000;
+    border: 2px solid #000;
+}
+
+.git:hover {
+    color: #fff;
+    background-color: #000;
+    border: 2px solid #000;
+}
+
+.nt {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nt li a:hover {
+    color: #e60012;
+}
+
+.nt li {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    list-style: none;
+    margin-top: 80px;
+}
+
+.nt li a {
+    text-decoration: none;
+    color: #585858;
+}
+
+.td {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.td li a:hover {
+    color: rgb(75, 131, 234);
+}
+
+.td li {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 600;
+    list-style: none;
+    margin-top: 80px;
+}
+
+.td li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.pt {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pt li a:hover {
+    color: #1100ff;
+}
+
+.pt li {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 600;
+    list-style: none;
+    margin-top: 40px;
+}
+
+.pt li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.cw {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cw li a:hover {
+    color: #494949;
+}
+
+.cw li {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    list-style: none;
+    margin-top: 100px;
+}
+
+.cw li a {
+    text-decoration: none;
+    color: #916e04;
+}
+
+.Mt li {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1em;
+    color: floralwhite;
+    font-weight: 600;
+    list-style: none;
+}
+
+.Mt li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.Mt li a:hover {
+    color: rgb(15, 63, 1);
+}
+
+
+.ct li {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1em;
+    color: floralwhite;
+    font-weight: 600;
+    list-style: none;
+}
+
+.ct li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.ct li a:hover {
+    color: rgb(255, 238, 0);
+}
+
+.header {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 5em;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-left: 80px;
+    text-align: start;
+}
+
+#ABOUT .header {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 6em;
+    font-weight: 900;
+    color: #c4c4c4;
+    margin-left: 80px;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+}
+
+
+#HOME .info {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-left: 80px;
+    font-size: 1.2em;
+    font-weight: 550;
+    color: #fff;
+    line-height: 150%;
+    text-align: left;
+}
+
+#HOME .sinfo {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-left: 80px;
+    color: #fff;
+    opacity: 0.8;
+    text-align: start;
+    line-height: 200%;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+
+
+#HOME .sinfo a:hover {
+    color: #ffc927;
+    font-size: 1.4em;
+    font-weight: 600;
+    transition: all 0.7s;
+}
+
+
+.pub {
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 7px;
+}
+
+.intro {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 150%
+}
+
+
+.Momentum .big>p:nth-of-type(1) {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 4em;
+    font-weight: 600;
+    color: #000000;
+}
+
+.Momentum .big>p:nth-of-type(2) {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #000000;
+}
+
+.Momentum .innerbox {
+    display: flex;
+    margin-top: 50px;
+}
+
+.Momentum .innerbox img {
+    width: 500px;
+    margin-right: 10px;
+}
+
+.Momentum .right {
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: start;
+    margin-left: 20px;
+}
+
+.Momentum .right>p:nth-of-type(1) {
+    font-size: 4em;
+    font-weight: 600;
+    color: #3f3f3f;
+    margin-top: 15px;
+}
+
+.Momentum .right>p:nth-of-type(2) {
+    font-size: 0.8em;
+    color: #777;
+    margin-left: 2px;
+    margin-top: 5px;
+}
+
+.Momentum .right>p:nth-of-type(3) {
+    margin-top: 20px;
+    line-height: 140%;
+    font-size: 1em;
+    color: #3f3f3f;
+    font-weight: 550;
+}
+
+.Momentum .bogi {
+    display: flex;
+    margin-top: 10px;
+    line-height: 150%;
+}
+
+.Momentum .bogi ul {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.Momentum .bogi>ul li:nth-of-type(1) {
+    margin-bottom: 3px;
+}
+
+.Momentum .bogi>ul li:nth-of-type(2) {
+    margin-bottom: 3px;
+    width: 50px;
+}
+
+.Momentum .bogi>ul li:nth-of-type(3) {
+    margin-bottom: 3px;
+    margin-left: 2px;
+}
+
+.Momentum .bogi>ul li:nth-of-type(4) {
+    margin-bottom: 13px;
+    margin-left: 2px;
+}
+
+.Momentum .bogi>ul li:nth-of-type(5) {
+    margin-left: 4px;
+}
+
+.Momentum .bogi .info p {
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+
+.Momentum .bogi .info p:last-child {
+    margin-bottom: 0;
+    line-height: 150%;
+}
+
+.Momentum .bogi .info ul {
+    display: flex;
+    margin-right: 27px;
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+.Momentum .bogi .info ul .git a {
+    margin-left: 20px;
+}
+
+.Momentum .bogi .info ul .ws a {
+    margin-left: 16px;
+}
+
+
+
+
+
+
+.footer p {
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 600;
+    line-height: 140%;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+@media screen and (min-width:1024px) and (max-width:1200px) {
+    .footer {
+        font-size: 20px;
+    }
+
+
+}
+
+
+@media screen and (min-width:767px) and (max-width:1023px) {
+    #HOME {
+        font-size: 19px;
+    }
+
+
+    #ABOUT {
+        font-size: 20px;
+    }
+
+    #ABOUT .header {
+        font-size: 5em;
+        margin-left: 70px;
+
+    }
+
+    .ja img {
+        width: 55px;
+        height: 55px;
+    }
+
+    .contact img {
+        width: 55px;
+        height: 55px;
+    }
+
+    #SKILL {
+        font-size: 20px;
+    }
+
+    .inn img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .footer {
+        font-size: 25px;
+    }
+}
+
+
+@media screen and (min-width:540px) and (max-width:766px) {
+    #HOME {
+        font-size: 20px;
+    }
+
+    .header {
+        margin-left: 65px;
+    }
+
+    #HOME .info {
+        margin-left: 65px;
+    }
+
+    #HOME .sinfo {
+        margin-left: 65px;
+    }
+
+    #ABOUT {
+        font-size: 26px;
+    }
+
+    #ABOUT .header {
+        font-size: 4em;
+        margin-left: 40px;
+
+    }
+
+    .ja img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .contact img {
+        width: 70px;
+        height: 70px;
+    }
+
+
+    #SKILL {
+        font-size: 26px;
+    }
+
+    .inn img {
+        width: 130px;
+        height: 130px;
+    }
+
+
+    .Momentum {
+        font-size: 26px;
+    }
+
+    .Momentum .big>p:nth-of-type(1) {
+        display: none;
+    }
+
+    .Momentum .big>p:nth-of-type(2) {
+        display: none;
+    }
+
+    .Momentum .big {
+        width: 100%;
+        position: absolute;
+        top: -100px;
+    }
+
+    .Momentum .innerbox {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 0;
+    }
+
+    .Momentum .innerbox img {
+        margin-right: 70px;
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+
+    .Momentum .right {
+        text-align: center;
+    }
+
+    .Momentum .right>p:nth-of-type(1) {
+        margin-top: 0;
+    }
+
+    .Momentum .right>p:nth-of-type(2) {
+        color: #fff;
+    }
+
+    .Momentum .right>p:nth-of-type(3) {
+        display: none;
+    }
+
+    .Momentum .bogi {
+        text-align: start;
+        position: absolute;
+        top: 560px;
+        left: 250px;
+        bottom: 0px;
+        line-height: 140%;
+        margin-top: 0;
+    }
+
+    .Momentum .bogi>ul li:nth-of-type(2) {
+        width: 80px;
+    }
+
+    .Momentum .bogi .info p {
+        text-align: start;
+        margin-bottom: 0px;
+    }
+
+    .Mt {
+        margin-top: 300px;
+    }
+
+    .Momentum .git {
+        margin-top: 10px;
+        width: 130px;
+        height: 35px;
+    }
+
+    .Momentum .ws {
+        margin-top: 10px;
+        width: 130px;
+        height: 35px;
+    }
+
+
+
+
+    .footer {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width:540px) {
+    #HOME {
+        font-size: 27px;
+    }
+
+    #HOME .sinfo {
+        line-height: 150%;
+    }
+
+    #HOME .info br {
+        display: none;
+    }
+
+    .header {
+        font-size: 135px;
+        margin-left: 0px;
+        margin-top: 0;
+    }
+
+    #HOME .info {
+        margin-left: 0px;
+    }
+
+    #HOME .sinfo {
+        margin-left: 0px;
+    }
+
+    #HOME .select {
+        justify-content: space-between;
+    }
+
+    #HOME .select {
+        margin-top: 30px;
+    }
+
+
+
+    #ABOUT {
+        font-size: 33px;
+    }
+
+    #ABOUT br {
+        display: none;
+    }
+
+    .ja img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .contact img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .pub {
+        margin-bottom: 20px;
+    }
+
+    #ABOUT .select {
+        margin-top: 50px;
+    }
+
+    .intro {
+        margin-bottom: 80px;
+    }
+
+    #SKILL {
+        font-size: 33px;
+    }
+
+    .inn img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .sk {
+        margin-top: 40px;
+    }
+
+    .de {
+        margin-top: 70px;
+    }
+
+    #SKILL .select {
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+    
+
+    .Momentum {
+        font-size: 30px;
+    }
+
+    .Momentum .big>p:nth-of-type(1) {
+        display: none;
+    }
+
+    .Momentum .big>p:nth-of-type(2) {
+        display: none;
+    }
+
+    .Momentum .big {
+        width: 100%;
+        position: absolute;
+        top: -100px;
+    }
+
+    .Momentum .innerbox {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 0;
+    }
+
+    .Momentum .innerbox img {
+        width: 780px;
+        margin-right: 70px;
+        margin-top: 30px;
+    }
+
+    .Momentum .right {
+        text-align: center;
+    }
+
+    .Momentum .right>p:nth-of-type(1) {
+        font-size: 100px;
+        margin-top: 0;
+    }
+
+    .Momentum .right>p:nth-of-type(2) {
+        color: #fff;
+    }
+
+    .Momentum .right>p:nth-of-type(3) {
+        display: none;
+    }
+
+    .Momentum .bogi {
+        text-align: start;
+        position: absolute;
+        top: 760px;
+        left: 250px;
+        bottom: 0px;
+        line-height: 140%;
+        margin-top: 0;
+    }
+
+    .Momentum .bogi>ul {
+        display: none;
+    }
+
+    .Momentum .bogi .info {
+        margin-top: 0px;
+        margin-left: 56px;
+    }
+
+    .Momentum .bogi .info p {
+        display: none;
+    }
+
+    .Mt {
+        justify-content: space-evenly;
+        margin-top: 230px;
+        font-size: 30px;
+    }
+
+    .Momentum .git {
+        margin-top: 10px;
+        width: 160px;
+        height: 40px;
+    }
+
+    .Momentum .ws {
+        margin-top: 10px;
+        width: 160px;
+        height: 40px;
+    }
+
+    .Momentum .git a {
+        padding-left: 12px;
+        line-height: 32px;
+    }
+
+    .Momentum .ws a {
+        padding-left: 8px;
+        line-height: 38px;
+    }
+
+
+
+
+    .footer {
+        font-size: 28.7px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .Momentum {
+        font-size: 40px;
+    }
+
+    .Momentum .big {
+        width: 100%;
+        position: absolute;
+        top: -200px;
+    }
+
+    .Momentum .innerbox img {
+        width: 900px;
+        margin-right: 90px;
+        margin-top: 30px;
+    }
+
+    .Momentum .right {
+        text-align: center;
+    }
+
+    .Momentum .right>p:nth-of-type(1) {
+        font-size: 120px;
+        margin-top: 0;
+    }
+
+    .Momentum .right>p:nth-of-type(2) {
+        color: #fff;
+    }
+
+    .Momentum .right>p:nth-of-type(3) {
+        display: none;
+    }
+
+    .Momentum .bogi {
+        text-align: start;
+        position: absolute;
+        top: 900px;
+        left: 250px;
+        bottom: 0px;
+        line-height: 140%;
+        margin-top: 0;
+    }
+
+    .Momentum .bogi>ul {
+        display: none;
+    }
+
+    .Momentum .bogi .info {
+        margin-top: 0px;
+        margin-left: 28px;
+    }
+
+    .Momentum .bogi .info p {
+        display: none;
+    }
+
+    .Mt {
+        justify-content: space-evenly;
+        margin-top: 230px;
+        font-size: 30px;
+    }
+
+    .Momentum .git {
+        margin-top: 10px;
+        width: 200px;
+        height: 50px;
+    }
+
+    .Momentum .ws {
+        margin-top: 10px;
+        width: 200px;
+        height: 50px;
+    }
+
+    .Momentum .git a {
+        padding-left: 16px;
+        line-height: 39px;
+    }
+
+    .Momentum .ws a {
+        padding-left: 8px;
+        line-height: 48px;
+    }
+
+}
