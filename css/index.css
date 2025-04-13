@@ -547,6 +547,19 @@ a {
 
 
 
+.Nintendo.bal .bogi{
+    left: 320px;
+}
+#PROJECTS .nt li a:hover{
+    color: #ffc927 ;
+}
+
+
+
+
+
+
+
 
 @media screen and (min-width:1024px) and (max-width:1200px) {
     .footer {
